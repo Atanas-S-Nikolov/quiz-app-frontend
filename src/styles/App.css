@@ -1,6 +1,49 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+input, button {
+  border-radius: 5px;
+}
+
+input, label {
+  font-size: larger;
+}
+
+input {
+  padding: .6em;
+  outline: none;
+  background-color: whitesmoke;
+  transition: border linear .2s;
+}
+
+input:focus {
+  border: 2px solid var(--primary-color );
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: .7em;
+  font-size: x-large;
+  border: none;
+}
+
+button:focus, button:hover {
+  cursor: pointer;
+  background-color: #f6af21;
 }

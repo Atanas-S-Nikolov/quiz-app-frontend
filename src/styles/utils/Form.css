@@ -1,0 +1,15 @@
+.form {
+  display: grid;
+  width: fit-content;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.form label {
+  margin-top: 1em;
+}
+
+.form button {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}

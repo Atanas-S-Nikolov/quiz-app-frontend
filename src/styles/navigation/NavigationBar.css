@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.logo {
+  width: 300px;
+}
+
+.nav {
+  display: inherit;
+  gap: 1em;
+}
+
+.nav a {
+  font-size: x-large;
+}
+
+@media (max-width: 600px) {
+  #register_link {
+    display: none;
+  }
+}
