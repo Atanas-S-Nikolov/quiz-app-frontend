@@ -1,0 +1,9 @@
+#title {
+  font-style: italic;
+}
+
+.cards {
+  display: grid;
+  gap: 1em;
+  margin-top: 5em;
+}

@@ -1,0 +1,33 @@
+.input_box {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+input {
+  font-size: larger;
+  padding: .6em;
+  border: 0;
+  outline: 0;
+  transition: border linear .2s;
+  width: 100%;
+  background-color: transparent;
+}
+
+.input_box, input {
+  border-radius: 5px;
+}
+
+.input_box:focus-within {
+  border: 2px solid var(--primary-color);
+}
+
+.icon {
+  margin-right: 10px;
+  aspect-ratio: 1 / 1;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

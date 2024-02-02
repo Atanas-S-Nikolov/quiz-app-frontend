@@ -1,0 +1,12 @@
+.card {
+  background-color: #7c589a;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+}

@@ -1,4 +1,5 @@
 import Form from "@/components/utils/Form";
+import FormWrapperLayout from "@/components/utils/FormWrapperLayout";
 
 export default function RegisterPage() {
   const fields = [
@@ -8,11 +9,11 @@ export default function RegisterPage() {
   ];
 
   return (
-    <>
+    <FormWrapperLayout>
       <Form
         fields={fields}
         btnLabel='Register'
       />
-    </>
+    </FormWrapperLayout>
   )
 }

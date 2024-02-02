@@ -1,11 +1,9 @@
 .form {
   display: grid;
-  width: fit-content;
   text-align: left;
-  margin: 0 auto;
 }
 
-.form label {
+.form label:not(:first-child) {
   margin-top: 1em;
 }
 
